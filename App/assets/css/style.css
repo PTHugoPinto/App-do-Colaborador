@@ -4561,7 +4561,7 @@ a:active {
 
 .overlaybg {
   left: 0;
-  z-index: 100;
+  z-index: 1000;
   width: 100%;
   height: 100%;
   position: fixed;
@@ -5872,7 +5872,7 @@ a:active {
 }
 
 .fanfact-promo-numbers .promo-number .odometer {
-  font-size: 40px;
+  font-size: 33px;
   font-weight: 800;
   line-height: 0.87em;
   font-family: "FujitsuSansMedium", sans-serif;
