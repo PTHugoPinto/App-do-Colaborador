@@ -53,6 +53,7 @@
 	<link rel="stylesheet" href="assets/css/style.css" />
 
 	<link rel="stylesheet" href="/css/transition.css">
+	<link rel="stylesheet" href="./assets/css/accordion.css">
 
 	<script src="assets/js/modernizr.min.js"></script>
 </head>
@@ -122,63 +123,80 @@
 	<!--********************* SITE CONTENT *********************-->
 	<!--********************************************************-->
 	<div class="site-content">
+		<a class="gotopbtn" href="/App/aMinhaArea.html"> <i class="fas fa-arrow-left"></i></a>
 
-		<a class="gotopbtn" href="./index.html"> <i class="fas fa-arrow-left"></i></a>
 
 		<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-			Start Services Block
+			Start Testimonial Block
 		~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-		<div id="service-block" class="services-block pd-t-170" style="margin-bottom: 350px; margin-top: 33px;">
+		<div id="testimonial-block" class="testimonial-block pd-t-170">
 			<div class="container container-1200">
 				<div class="row justify-content-center">
 					<div class="col-lg-8">
 						<div class="section-title text-center">
 							<h2 class="title-main">
-								02 <span>A Minha Área</span>
+								01 <span>Diversos</span>
 							</h2><!-- /.title-main -->
 							<p class="sub-title">shaping tomorrow with you</p>
 						</div><!-- /.section-title -->
 					</div><!-- /.col-lg-8 -->
 				</div><!-- /.row -->
 
-				<div class="row services-items-list gutters-30">
-					<div class="col-lg-4 col-md-6">
-						<a class="service-item" href="./oMeuPC.html">
-							<div class="service-icon">
-								<img src="assets/images/icon/services/oMeuPc.png" alt="Icon" />
-							</div>
-							<!-- /.service-icon -->
-							<h3 class="title">O meu PC</h3>
-						</a>
-						<!-- /.service-item -->
+				<div class="row justify-content-center" style="margin-bottom: 266px;">
+					<div class="col-lg-11">
+						<button class="accordion"> <i class="fas fa-car" style="margin-right: 20px;"></i> Protocolo
+							lavagem de carros</button>
+						<div class="panel">
+							<h5>Protocolo de lavagem de carros com a Starwash (piso -3)</h5>
+							<p>O custo unitário por lavagem depende do nº total de lavagens efectuadas no mês por
+								todos os colaboradores da Fujitsu que tenham lugar de estacionamento no piso -3. </p>
+							<p>Assim, os custos unitários possíveis são os seguintes:</p>
+							<ul>- <b>13,00€</b> - Se no mês ocorrerem até 20 lavagens efectuadas por colaboradores da
+								Fujitsu
+							</ul>
+							<ul>- <b>12,35€</b> - Desconto de 5%, se no mês ocorrerem entre 21 e 30 lavagens efectuadas
+								por
+								colaboradores da Fujitsu
+							</ul>
+							<ul>- <b>11,70€</b> - Desconto de 10%, se no mês ocorrerem mais de 30 lavagens efectuadas
+								por
+								colaboradores da Fujitsu
+							</ul>
+							<p>Os colegas do GDC que estacionam no piso -3 também estão abrangidos por este protocolo
+							</p>
+							<p>O serviço em causa inclui lavagem exterior e lavagem e aspiração interior da viatura</p>
+							<h5>O procedimento de utilização e pagamento deste serviço será o seguinte:</h5>
+							<ul>O colaborador da Fujitsu deve marcar a lavagem directamente junto do funcionário da
+								Starwash. A marcação será feita de acordo com a disponibilidade existente e com o mínimo
+								de 24 horas de antecedência.</ul>
+							<ul>O colaborador deve indicar ao funcionário da Starwash o seu nome e nº de empregado (nº
+								SAP Portugal, o mesmo que utiliza para a marcação de férias) </ul>
+							<ul><b>O colaborador não efectua nenhum pagamento ao funcionário da Starwash.</b></ul>
+							<ul>• No início de cada mês, a Starwash vai facturar à Fujitsu o valor total das lavagens
+								efectuadas no mês anterior, com discriminação dos nºs de colaborador que lavaram o carro
+								nesse mês. O valor unitário será calculado de acordo com a regra acima descrita.</ul>
+							<ul>O valor unitário facturado pela Starwash será descontado directamente aos colaboradores
+								respectivos, no seu recibo de vencimento.</ul>
+							<ul>Estão abrangidas por este protocolo todas as matrículas registadas no sistema de acesso
+								ao parque de estacionamento</ul>
+							<p><b>Nota importante: os colaboradores que utilizarem os serviços da Starwash ficam
+									vinculados às condições acima descritas, nomeadamente autorizando que o valor da
+									lavagem seja descontado no seu recibo de vencimento.</b></p>
+							<br>
+						</div>
+
 					</div>
-					<!-- /.col-lg-4 -->
-					<div class="col-lg-4 col-md-6">
-						<a class="service-item" href="./oMeuTelemovel.html">
-							<div class="service-icon">
-								<img src="assets/images/icon/services/oMeutelemovel.png" alt="Icon" />
-							</div>
-							<!-- /.service-icon -->
-							<h3 class="title">O meu Telemóvel</h3>
-						</a>
-						<!-- /.service-item -->
-					</div>
-					<!-- /.col-lg-4 -->
-					<div class="col-lg-4 col-md-6">
-						<a class="service-item" href="./oMeuLogin.html">
-							<div class="service-icon">
-								<img src="assets/images/icon/services/oMeulogin.png" alt="Icon" />
-							</div>
-							<!-- /.service-icon -->
-							<h3 class="title">O meu Login</h3>
-						</a>
-						<!-- /.service-item -->
-					</div>
-					<!-- /.col-lg-4 -->
-				</div><!-- /.row -->
-			</div><!-- /.container -->
+				</div>
+				<!-- /.row -->
+			</div>
+			<!-- /.container -->
 		</div>
-		<!--~~./ end services block ~~-->
+		<!--~~./ end testimonial block ~~-->
+
+
+
+
+
 		<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 			Start Site Footer
 		~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -189,7 +207,7 @@
 						<div class="contact-block">
 							<div class="section-title">
 								<h2 class="title-main">
-									01 <span>Contactos</span>
+									02 <span>Contactos</span>
 								</h2><!-- /.title-main -->
 								<p class="sub-title">shaping tomorrow with you</p>
 							</div><!-- /.section-title -->
@@ -308,6 +326,7 @@
 
 	<!-- This script use for this page -->
 	<script src="assets/js/jquery.zoomslider.min.js"></script>
+	<script src="assets/js/accordion.js"></script>
 </body>
 
 </html>
